@@ -1,6 +1,6 @@
 19BDS0042- SAMARTH GUPTA
 
-# Internet Programming And Web Technologies-Lab Codes-CSE:2015
+# CSE-2015-Internet-Programming-And-Web-Tech-Lab-Codes
 
 Questions PDF's :-
 
