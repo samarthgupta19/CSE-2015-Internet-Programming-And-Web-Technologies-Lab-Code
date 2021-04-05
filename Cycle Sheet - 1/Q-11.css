@@ -1,0 +1,62 @@
+<!--CSS-->
+   footer{
+        margin-top: 8px;
+        border: 3px solid brown;
+        background-color: #ffe39f;
+        }
+        footer div h2{
+        font-family: Book Antiqua;
+        }
+        .fa-biohazard{
+        margin-right: 7px;
+        margin-left: 7px;
+        color:black;
+        }
+        header p{
+        margin-left: 7px;
+        }
+        section nav{
+        border: 2px solid purple;
+        border-radius: 10px;
+        box-shadow: 10px 5px 5px grey;
+        }
+        .img{
+        position: absolute;
+        bottom: 5px;
+        left:5px;
+        background-color: rgba(0,0,0,0.7);
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 97%;
+        }
+        .fa-pencil-alt{
+        margin-left: 7px;
+        margin-right: 7px;
+        }
+        article p{
+        margin-left: 7px;
+        font-family: Bahnschrift;
+        margin-right: 3px;
+        }
+        article h1{
+        text-transform: uppercase;
+        }
+        aside nav a{
+        padding: 10px;
+        margin-left: 20px;
+        }
+        aside p{
+        font-family: Centaur;
+        font-size: 17px;
+        }
+        section nav a{
+        padding: 20px;
+        text-decoration: none;
+        }
+        aside nav{
+        margin-left: 80px;
+        }
+        body{
+        background-color: #ffe39f;
+        }
