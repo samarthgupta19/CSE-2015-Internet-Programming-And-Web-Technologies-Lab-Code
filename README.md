@@ -55,7 +55,7 @@ b. Prints 10 names with a line break between each name. The list should be
 alphabetized, and to do this place a subscripted number next to each name based on
 where it will go in the alphabetized list. (Example: Alan1). Print first, the
 unalphabetized list with a subscript number next to each name, then the
-alphabetized list. Both lists should have an <h1> level heading.
+alphabetized list. Both lists should have an  h1 level heading.
 c. Print two lists with any information you want. One list should be an ordered list,
 the other list should be an unordered list
 d. Print a list which starts with 7 with the type i
