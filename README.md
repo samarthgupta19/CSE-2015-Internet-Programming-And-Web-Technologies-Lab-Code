@@ -8,6 +8,10 @@ Questions PDF's :-
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 [Cycle Sheet - 1.pdf](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/files/6254486/Cycle.Sheet.-.1.pdf)
 
+[Solutions](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/tree/main/Cycle%20Sheet%20-%201)
+
+QUESTIONS :-
+
 1) Introduction to HTML
 
 a. Create a webpage that prints your name to the screen.
