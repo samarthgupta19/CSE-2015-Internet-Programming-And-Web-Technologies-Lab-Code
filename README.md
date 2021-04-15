@@ -119,6 +119,8 @@ breaks have been inserted.
 
 [CAT-1.pdf](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Code/files/6258286/CAT-1.pdf)
 
+[Solutions](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/tree/main/CAT-1)
+
 1. Write a java script and Html code to design an employee leave form using following data
 information, such as name, id, email, Designation, From date , to date , no of days with
 reason and submit button. To validate the form with help of the following conditions,
@@ -143,6 +145,8 @@ number with validation state and symbol.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 [Cycle Sheet -2.pdf](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/files/6254487/Cycle.Sheet.-2.pdf)
+
+[Solutions](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/tree/main/Cycle%20Sheet%20-%202)
 
 1. A parking garage charges a $2.00 minimum fee to park for up to three hours. The
 garage charges an additional $0.50 per hour for each hour or part thereof in excess of
