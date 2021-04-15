@@ -1,0 +1,28 @@
+Course : CSE2015-Internet Programming and Web Technologies
+SET-A
+
+1. Write a java script and Html code to design an employee leave form using following data
+information, such as name, id, email, Designation, From date , to date , no of days with
+reason and submit button. To validate the form with help of the following conditions,
+i) Display placeholders( name,id, email and designation)
+ii) Email validation and empty field
+iii) Employee id should be number and 3 digits only
+iv) Employee Name should be start with Mr/Mrs/Miss
+v) Leavetype includeCL,EL,ML,Maternity leave and vacation
+
+
+2. Create a html page named as “matrix.html” that has a script tag in the head which includes
+3 functions,
+a) “array_size()” to get the size of array.
+b) “get_inputs()” to get the inputs from user.
+c) “operation()” to perform matrix addition, subtraction and multiplication.
+The function array_size() calls get_inputs() and manipulate in turn calls function
+operation().The get_inputs() function is invoked on click of a submit button.
+
+
+3. With the help of the bootstrap to design the following form, and validate the credit card
+number with validation state and symbol.
+email address and display the status of the validation.
+
+
+4. Design the following form using HTML, CSS and JavaScript and also validate the email address and show status of validation.
