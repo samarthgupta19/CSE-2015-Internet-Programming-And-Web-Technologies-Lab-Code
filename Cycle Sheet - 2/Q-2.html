@@ -1,0 +1,88 @@
+<!--19BDS0042 SAMARTH GUPTA-->
+
+<html>
+<head>
+<title>Q-2</title>
+<link rel="stylesheet" href="Q-2.css">
+</head>
+<body onload="startTime()">
+<div id="div1">
+<p id="clock"></p>
+<p id="text">THIS PAGE WILL AUTOMATICALLY CHANGE TO THE FONT-SIZE , COLOR , FONT-STYLE THAT YOU CHOOSE BELOW.
+</p>
+</div>
+<div id="div2">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYIko9jdqizccGE4-JxZyOd82A1npP09WoqQ&usqp=CAU" id="img">
+<br />
+<span id="sliders">
+<button id="prev" onclick="previmg()">&lt;</button>
+<button id="next" onclick="nextimg()">&gt;</button>
+</span>
+</div>
+<div id="div3">
+<br><br>
+Color: <input type="color" style="width:400px" id="col"><br /><br />
+Font-Size: <input type="number" max="200" min="10" step="2" style="width:400px"
+id="fonts"><br /><br />
+Font-Family:
+<select style="width:400px" id="fontf">
+<option value="Courier">Courier</option>
+<option value="Franklin">Franklin</option>
+<option value="Calibri">Calibri</option>
+<option value="Verdana">Verdana</option>
+<option value="Tahoma">Tahoma</option>
+<option value="Times">Times New Roman</option>
+<option value="Arial">Arial</option>
+<option value="Helvetica">Helvetica</option>
+<option value="Georgia">Georgia</option>
+</select><br /><br />
+<div id="button_main">
+<input type="button" onclick="change()" value="SUBMIT"></div>
+</div>
+<script>
+var img_sources = ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYIko9jdqizccGE4-JxZyOd82A1npP09WoqQ&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQjBHWfRvri4hUjmGWPUPCorhGfoTbdRVHSg&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQorGsgZW08-Saf-gjkrH8vz2r9XBwoKaYXZg&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJumDWT5AQwcoh2jOEUsOwGVvVc1mxsV9QkA&usqp=CAU"]
+var curimg = 0;
+function startTime() {
+var now = new Date();
+var h = now.getHours();
+var m = now.getMinutes();
+var s = now.getSeconds();
+m = m < 10 ? "0" + m : m;
+s = s < 10 ? "0" + s : s;
+document.getElementById("clock").innerHTML = h + ":" + m + ":" + s;
+var t = setTimeout(startTime, 500);
+}
+function change() {
+document.body.style.backgroundColor = document.getElementById("col").value;
+document.body.style.fontSize = document.getElementById("fonts").value + "px";
+document.body.style.fontFamily = document.getElementById("fontf").value;
+}
+function previmg() {
+if (curimg > 0) {
+curimg--;
+}
+document.getElementById("img").src = img_sources[curimg];
+}
+function nextimg() {
+if (curimg < img_sources.length - 1) {
+curimg++;
+}
+document.getElementById("img").src = img_sources[curimg];
+}
+function gettime()
+{
+var today = new Date();
+var h = today.getHours();
+var m = today.getMinutes();
+var s = today.getSeconds();
+var time = document.querySelector("#clock_box");
+time.textContent= h +" : "+ m + " : " + s;
+var t= setTimeout(gettime,500);
+}
+for(var i=0;i<5;i++)
+{
+var time = document.querySelector("#prac");
+}
+</script>
+</body>
+</html>

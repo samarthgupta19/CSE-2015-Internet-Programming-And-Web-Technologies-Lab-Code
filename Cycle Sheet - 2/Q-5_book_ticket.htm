@@ -1,0 +1,125 @@
+<!--19BDS0042 SAMARTH GUPTA-->
+
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ticket Booking</title>
+<style>
+table {
+border-collapse: collapse;
+width: 500px;
+height: 350px;
+}
+td{
+order: 2px solid black;
+padding: 15 px;
+color:black;
+font-weight: bolder;
+}
+</style>
+<script type="text/javascript">
+
+function showdetails() {
+var train = document.getElementById("s");
+var trnm = train.options[train.selectedIndex].value;
+if (trnm == 1) {
+alert("Booking Number: 111111");
+}
+else if (trnm == 2) {
+dalert("Booking Number: 222222");
+}
+else if (trnm == 3) {
+alert("Booking Number: 333333");
+}
+else if (trnm == 4) {
+alert("Booking Number: 444444");
+}
+else if (trnm == 5) {
+alert("Booking Number: 555555");
+}
+else if (trnm == 6) {
+alert("Booking Number: 666666");
+}
+else {
+alert("Booking Number: 123456");
+}
+}
+</script>
+</head>
+<body bgcolor="#b8b69e">
+<div>
+<center>
+<form>
+<table>
+<tr>
+<td>FROM</td>
+<td><input type="text" name="from"></td>
+</tr>
+<tr>
+<td>TO</td>
+<td><input type="text" name="to"></td>
+</tr>
+<tr>
+
+    <td>TRAIN NAME</td>
+    <td><select name="trainname" id="s">
+    <option></option>
+    <option value=1>Tejas Express</option>
+    <option value=2>Chennai Express</option>
+    <option value=3>Garibrath Express</option>
+    <option value=4>Mahanagari Express</option>
+    <option value=5>Humsafar Express</option>
+    <option value=6>Duronto Express</option>
+    <option value=7>Kashi Express</option>
+    </select></td>
+    </tr>
+    <tr>
+
+    <td>COACH NUMBER</td>
+    <td><select name="class">
+        <option></option>
+    <option value="3A">A1</option>
+    <option value="2A">A2</option>
+    <option value="1A">B1</option>
+    <option value="2A">B2</option>
+    <option value="1S">S1</option>
+    <option value="2S">S2</option>
+    </select></td>
+    </tr>
+    <tr>
+    <td>DATE OF JOURNEY</td>
+    <td><input type="Date" name="date"></td>
+    </tr>
+    <tr>
+    <td>TIMING</td>
+    <td><input type="time" name="time"></td>
+    </tr>
+    <tr>
+
+    <td>GENDER</td>
+    <td><select name="gender">
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+    </select></td>
+    </tr>
+    <tr>
+        <td>COUNT</td>
+        <td><select name="count">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        </select></td>
+        </tr>
+    <tr>
+    <td><button onclick="showdetails();">SUBMIT</button></td>
+    <td><input type="reset" value="RESET"></td>
+    </tr>
+    </table>
+    </form>
+    </center>
+    </div>
+    </body>
+    </html>

@@ -1,0 +1,21 @@
+    body{
+        margin-right: 80%;
+    }
+    table.inner {
+    border: 4px solid #dbdb0b;
+    background-color: #dbdb0b; width: 400px;
+    text-align: center;
+    border-collapse: collapse;
+    }
+    table.inner td,
+    table.inner th {
+    border: 1px solid #dbdb0b;
+    padding: 4px 7px;
+    }
+    table.inner tbody td {
+    font-size: 12px;
+    font-weight: bold; color: #000000;
+    }
+    table.inner tr:nth-child(even) {
+    background: #dbdb0b;
+    } 

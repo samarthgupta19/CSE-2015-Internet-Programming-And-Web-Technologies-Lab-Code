@@ -1,0 +1,60 @@
+<!--19BDS0042 SAMARTH GUPTA-->
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Q-4</title>
+<style type="text/css">
+body{
+    background-color : lightcyan;
+}
+h1{
+    color : #000000;
+}
+h2{
+    color:#000000;
+}
+.word {
+border: 2px red dotted;
+color: red;
+padding: 3px;
+}
+</style>
+</head>
+<body>
+<h1>SENTENCE REVERSER!</h1>
+<h2>PHRASE :<input type="text" id="phrase"></h2>
+<br><br>
+<h2>FILTER :<input type="text" id="filter"></h2>
+<br><br>
+<button onclick="create()">GO!</button>
+<br><br>
+<div id="words"></div>
+<br>
+<div id="count"></div>
+</body>
+<script>
+function create() {
+str = document.getElementById("phrase");
+f = document.getElementById("filter").value.trim();
+document.getElementById("words").innerHTML = "";
+var c = 0;
+var un = 0;
+str.value.split(" ").reverse().forEach(function (element) {
+if (element.toLowerCase().includes(f.toLowerCase())
+&& f.length !== 0) {
+ct++;
+} else {un++;
+if (un % 2 === 0)
+document.getElementById("words").innerHTML += ` <span
+class="word">${element}</span> `;
+else
+document.getElementById("words").innerHTML += ` <span
+class="word"><u>${element}</u></span> `;
+}
+});
+document.getElementById("count").innerHTML = `${c} word(s) filtered
+out`;
+}
+</script>
+</html>

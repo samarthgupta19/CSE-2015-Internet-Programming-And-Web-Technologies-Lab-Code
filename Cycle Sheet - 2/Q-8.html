@@ -1,0 +1,42 @@
+<!--19BDS0042 SAMARTH GUPTA-->
+
+<html>
+<head>
+<title>Q-8</title>
+</head>
+<body>
+<h2 id="nifty_list" align="left"><u>MY SUPER NIFTY TO-DO LIST</u></h2>
+<div>
+<ul id="my_list"></ul>
+</div>
+<input type="text" id="txt">
+<button id="button_1">ADD</button>
+<button id="button_2">REMOVE</button>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+$("#button_1").click(function () {
+var x = "<li>" + $("#txt").val() + "</li>";
+$("#my_list").append(x);
+$("#txt").val("");
+$("li:even").css("background-color", "white");
+$("li:odd").css("background-color", "yellow");
+});
+$("#button_2").click(function () {
+var y = $("#txt").val();
+$("li").each(function () {
+var z = $(this).text();
+if (y.toLowerCase() == z.toLowerCase()) {
+$(this).remove();
+$("#txt").val("");
+$("li:even").css("background-color", "white");
+$("li:odd").css("background-color", "yellow");
+return false;
+}}) ;
+});
+ });
+</script>
+</body>
+</html>
+
+

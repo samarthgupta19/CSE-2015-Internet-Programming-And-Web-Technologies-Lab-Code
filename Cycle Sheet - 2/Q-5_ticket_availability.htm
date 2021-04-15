@@ -1,0 +1,50 @@
+<!--19BDS0042 SAMARTH GUPTA-->
+
+<html>
+<head>
+<meta charset="utf-8">
+<title>Availability</title>
+<style>
+td{border: 2px solid black;
+padding: 10px;
+}
+</style>
+<script type="text/javascript">
+
+    function PNR() {
+    var pnr = document.getElementById("s");
+    var pnrnum = pnr.options[pnr.selectedIndex].text;
+    if (pnrnum == 111111) {
+document.getElementById("p").innerHTML = "TICKET NOT AVAILABLE";}
+else if (pnrnum == 222222) {
+document.getElementById("p").innerHTML =
+"TICKET CONFIRMED";
+}
+else if (pnrnum == 123456) {
+document.getElementById("p").innerHTML =
+"TICKET NOT AVAILABLE";
+}
+else { document.getElementById("p").innerHTML = "TICKET CONFIRMED"; }
+}
+</script>
+</head>
+<body bgcolor="#b8b69e">
+<center>
+<h2><u>AVAILABILITY CHECKING</u></h2>
+<div id="PNR">
+<select name="pnrstatus" id="s">
+<option></option>
+<option>111111</option>
+<option>222222</option>
+<option>333333</option>
+<option>444444</option>
+<option>555555</option>
+<option>666666</option>
+<option>123456</option>
+</select>
+<button onclick="PNR();">Check</button>
+</div>
+<p id="p"></p>
+</center>
+</body>
+</html>

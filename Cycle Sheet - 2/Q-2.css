@@ -1,0 +1,61 @@
+button#prev {
+position: relative;
+left: 50%;
+width: 40px;
+margin-left: -40px;
+margin-right: 0px;
+}
+button#next {
+position: relative;
+left: 50%;
+width: 40px;
+margin-right: 0px;
+}
+#clock {
+position: relative;
+top: -40px;
+text-align: right;
+font-size: 50px;
+font-weight: bolder;
+color: black;
+}
+body {
+background-color:white;
+font-family: Arial;
+font-size: 30px;
+width: 1500px;
+height: 730px;
+}
+#div1 {
+float: left;
+width: 99.733%;
+height: 50%;
+border: 2px solid #000000;
+}
+#div2 {
+float: left;
+width: 49.733%;
+height: 50%;
+border: 2px solid #000000;
+}
+#div3 {
+float: left;
+width: 49.733%;
+height: 50%;
+border: 2px solid #000000;
+font-size: 20px;
+}
+#text {
+max-width: 1000px;
+max-height: 200px;
+overflow: hidden;
+margin: 0px;
+padding: 0px;
+}
+#img {
+margin-left: 225px;
+width: 300px;
+height: 300px;
+border: 2px solid black;
+margin-top: 20px;
+}

@@ -1,0 +1,54 @@
+<!--19BDS0042 SAMARTH GUPTA-->
+
+<html>
+  <head>
+     <title>PARKING CHARGES</title>
+     <script type="text/javascript" >
+		var Customer = 0;
+		var totalCharges = 0;
+		function individualCharge()
+			{
+		Customer++;
+		var hrsParked = parseFloat(prompt("ENTER THE NUMBER OF HOURS PARKED : ", ""));
+		var charge = calculate_Charges(hrsParked);
+		document.write("<tr><td>Customer " + Customer + "</td><td align='right'>" + hrsParked + "</td><td align='right'>" + charge.toString() + "</td></tr>");
+			}
+          function calculate_Charges(hrs){
+			var charge = 2; 
+			if (hrs > 3)
+				charge += Math.ceil(hrs - 3) * 0.5; 
+			if (charge > 10)
+				charge = 10;
+			totalCharges += charge;
+			return charge;
+          }
+		  
+		  function Calculate(){
+				var hrsParked = parseFloat(document.getElementById("hrsParked").value);
+				var charge = calculate_Charges(hrsParked);
+				document.getElementById("charge").value = charge;
+		  }
+	function allCustomer() 
+	{
+		document.write("<table><th>Customer</th><th>Hours</th><th>Charges</th>");
+		var addCustomer = 'Y';
+		while (addCustomer == "Y")
+		{
+			individualCharge()
+			addCustomer = prompt("TYPE Y TO ADD A CUSTOMER", "Y");
+		}
+		document.write("<tr><td/><td/><td align='right'><b>$" + totalCharges.toString() + "</b></td></tr>");
+		document.write("</table>");
+	}
+     </script> 	  
+</head>
+<body onload="allCustomer();">
+  <h1>PARKING CHARGES CALCULATOR</h1>
+  <hr>
+  <p>
+  <input type="text" id="hrsParked"><br>
+  <input type="text" id="charge"><br>
+	</p>
+  <button onclick="Calculate()">CALCULATE CHARGES</button>
+</body>
+</html>
