@@ -1,0 +1,89 @@
+<!--19BDS0042 SAMARTH GUPTA-->
+
+<html>
+<head>
+    <style type="text/css">
+        body{
+            background-color:lightskyblue;
+        }
+    </style>
+<script type="text/javascript">
+function validateForm(){
+	var x = document.forms["myForm"]["email"].value;
+	var atpos = x.indexOf("@");
+	var dotpos = x.lastIndexOf(".");
+	if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length){
+        alert("Enter Valid Email Address!"); 
+	}
+    else{
+        alert("Email Address Valid!");
+    }
+}
+</script></head>
+<body>
+    <h1>APPLICATION FORM</h1>
+<form name="myForm"  onsubmit="validateForm()" >
+    <input type="text" value="First Name" id="fname"> 
+    &nbsp;&nbsp;&nbsp;
+    <input type="text" value="SurName" id="sname"> <br><br>
+    <input type="text" value="Father's Name" id="fatname"> <br><br>
+    <input type="text" name="email" value="E-mail" ><br><br>
+	
+    <select name = "Select Course" id ="COURSE">
+        <option value="SC">SELECT COURSE</option>
+        <option value="IWP">IWP</option>
+        <option value="ALA">ALA</option>
+        <option value="DBMs">DBMS</option>
+    </select>
+    <br><br>Select your skills<br>
+    <input name="Programming" type="radio" id="p"> Programming<br>
+    <input name="Creative Writing" type="radio" id="c"> Creative Writing<br>
+    <input name="Singing" type="radio" id="s"> Singing<br>
+
+    <br><br><h2>Birthday</h2>
+    <select name = "Day" id ="dy">
+    <option value="d">Day</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+</select>
+
+<select name = "Month" id ="mo">
+    <option value="d">January</option>
+    <option value="1">February</option>
+    <option value="2">March</option>
+    <option value="3">April</option>
+    <option value="4">May</option>
+    <option value="5">June</option>
+    <option value="6">July</option>
+    <option value="7">August</option>
+    <option value="8">September</option>
+    <option value="9">October</option>
+</select>
+
+<select name = "Year" id ="yr">
+    <option value="d">Year</option>
+    <option value="1">2000</option>
+    <option value="2">2001</option>
+    <option value="3">2002</option>
+    <option value="4">2003</option>
+    <option value="5">2004</option>
+    <option value="6">2005</option>
+</select>
+
+&nbsp;&nbsp;&nbsp;<spN style="color: blue;">Why do i need to provide by date of birth ?</span>
+
+<br><br>
+<input name="Female" type="radio" id="f"> Female
+<input name="Male" type="radio" id="m"> Male<br>
+<span style="color: black;" >By clicking to create an account you agree to our</span>  <span style="color: blue;" >Terms & <br>Conditions</span>
+<br><br>
+
+<input type="submit" value="Submit" style="background-color: green;">
+</form></body></html>

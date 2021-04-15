@@ -1,0 +1,71 @@
+<!--19BDS0042 SAMARTH GUPTA-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Q-1</title>
+    <link rel="stylesheet" href="Q-1.css">
+    <script>
+    function validate() { 
+        mail(document.getElementById("email").value);
+        num(document.getElementById("numloc").value);
+        number(document.getElementById("numloc").value);
+        start(document.getElementById("ename").value);
+    }
+    function mail(email) { atp = email.indexOf("@");
+    dotp = email.lastIndexOf(".");
+    if (atp < 1 || dotp < atp + 2 || dotp + 2 >= email.length) alert("Enter A Valid E-mail ID!");
+    }
+    function num(numloc) {
+    if (numloc.length != 3) alert("Employee ID Must Be 3 Digits Only!");
+    }
+    function number(numloc){
+    var z = document.forms["myForm"]["numloc"].value;
+    if(!/^[0-9]+$/.test(z)){
+    alert("Employee-ID Must Be A Number!");
+    }}
+    function start(ename){
+      var k = document.forms["myForm"]["ename"].value;
+      var m = String(k);
+      if(m.startsWith("Mr") || m.startsWith("Mrs") || m.startsWith("Miss")){
+        var flag = 0;
+      }
+      if(flag!=0){
+        alert("Employee Name Should Start With Mr/Mrs/Miss !");
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <form name="myForm">
+        <h1>EMPLOYEE LEAVE FORM</h1>
+        <h4>NAME</h4>
+        <input type="text" name="name" id="ename" placeholder="Name">
+        <h4>EMPLOYEE ID</h4>
+        <input type="text" name="num" id="numloc" placeholder="ID">
+        <h4>EMAIL ADDRESS</h4>
+        <input type="text" name="email" id="email" placeholder="Email-ID" />
+        <h4>DESIGNATION</h4>
+        <input type="text" name="name" placeholder="Designation">
+        <h4>FROM DATE</h4>
+        <input type="date" name="name"/>
+        <h4>TO DATE</h4>
+        <input type="date" name="name"/>
+        <h4>NO. OF DAYS</h4>
+        <input type="text" name="name"/>
+        <h4>LEAVE TYPE (REASON)</h4>
+        <select>
+            <option></option>
+            <option value="1">CL</option>
+            <option value="2">EL</option>
+            <option value="3">ML</option>
+            <option value="4">Maternity Leave</option>
+            <option value="4">Vacation</option>
+          </select>
+        <div class="btn-block">
+          <button type="submit" onclick="validate();">SUBMIT</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

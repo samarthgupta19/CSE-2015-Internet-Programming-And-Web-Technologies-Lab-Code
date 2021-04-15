@@ -1,0 +1,77 @@
+<!--19BDS0042 SAMARTH GUPTA-->
+
+<html>
+    <head>
+        <script src="https://kit.fontawesome.com/e0ea6aba24.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script type="text/javascript">
+            function validate(inputtxt)
+            {
+                var cardno = /^(?:3[47][0-9]{13})$/;
+                if(inputtxt.value.match(cardno))
+                        {
+                    return true;
+                        }
+                    else
+                        {
+                        alert("Not a valid credit card number!");
+                        return false;
+                        }
+            }
+        </script>
+        <style>
+            h2{
+                color:#330673;
+            }
+            label{
+                color: Brown;
+            }
+            .but{
+                background-color: #330673;
+                color:white;
+            }
+            form{
+                background-color:#ff9966;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        <form name="myForm" action="POST">
+            <h2 style="margin-left:30px"><span class="fas fa-truck"></span> Shipping Details</h2><br>
+            <label for="first" style="margin-left:30px">FIRST</label>
+            <label for="last" style="margin-left:170px">LAST</label>
+            <br>
+            <input type="text" name="first" id="fn" style="margin-left:30px" />
+            <input type="text" name="last" id="ln" style="margin-left:30px" />
+            <br><br>
+            <label for="street" style="margin-left:30px">STREET</label>
+            <br>
+            <input type="text" name="street" id="st" style="margin-left:30px"  size="51" />
+            <br><br>
+            <label for="city" style="margin-left:30px">CITY</label>
+            <label for="state" style="margin-left:105px">STATE</label>
+            <label for="zip" style="margin-left:94px">ZIP</label>
+            <br>
+            <input type="text" name="city" id="city" style="margin-left:30px" size="11" />
+            <input type="text" name="state" id="state" style="margin-left:20px" size="11" />
+            <input type="text" name="zip" id="zip" style="margin-left:20px" size="10" pattern="[0-9]{6}" />
+            <br><br>
+            <h2 style="margin-left:30px"><span class="fas fa-credit-card"></span> Payment Information</h2><br>
+            <label for="cred" style="margin-left:30px">CREDIT CARD NO</label>
+            <br>
+            <input type="text" name="cred" id="cred" style="margin-left:30px"  size="51" />
+            <br><br>
+            <label for="exp" style="margin-left:30px">EXP</label>
+            <label for="cvv" style="margin-left:181px">CCV</label>
+            <br>
+            <input type="text" name="exp" id="exp" style="margin-left:30px" />
+            <input type="text" name="cvv" id="cvv" style="margin-left:30px" />
+            <br><br>
+            <input type="button" class="but" style="margin-left:258px; padding:2px 30px" value="PURCHASE" onclick="validate(document.myForm.cred)" />
+            <br>
+            <input type="button" class="but" style="margin-left:258px; padding:2px 22px" value="BACK TO CART" />
+        </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,82 @@
+<!--19BDS0042 SAMARTH GUPTA-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q-2</title>
+<style>
+body{
+    background-color: lightblue;
+}
+button{
+    font-size: 30px;
+}
+</style>
+<script>
+var matrix1 = [];
+var matrix2 = [];
+function array_size() {
+ size = prompt("Enter Size For Matrix-1 (Example - 4x4)" ).split("x");
+    row1 = parseInt(size[0]);
+    col1= parseInt(size[1]);
+    for (var i = 0; i <row1; i++) {
+        arr = [];
+        for(var ii = 0; ii <col1;ii++) {
+            arr.push(0); }
+        matrix1.push(arr); }
+    size = prompt("Enter Size For Matrix-2 (Example - 4x4)" ).split("x");
+    row2 = parseInt(size[0]);
+    col2 = parseInt(size[1]);
+    for (var i = 0; i <row2; i++) {
+        arr = [];
+        for(var ii = 0; ii <col2;ii++) {
+            arr.push(0);}
+        matrix2.push(arr); }
+    get_input(row1,col1,row2,col2);
+}function get_input(row1,col1,row2,col2) {            
+        input =prompt("Enter "  + (row1 * col1) + " Numbers For Matrix-1 Seperated By A Space").split(" ");
+        n=0;
+        for(i=0;i<row1;i++){
+            for(ii=0;ii<col1;ii++) {
+                matrix1[i][ii] = parseInt(input[n++]) || 0;
+            }}
+        input =prompt("Enter "  + (row2 * col2) + " Numbers For Matrix-2 Seperated By A Space").split(" ");
+        n=0;
+        for(i=0;i<row2;i++){
+            for(ii=0;ii<col2;ii++) {
+                matrix2[i][ii] = parseInt(input[n++]) || 0;
+            } }
+    operation();}
+function operation() {
+    additionMatrix = [];
+    subtractionMatrix = [];
+    for(i=0;i<Math.max(row2,row1);i++){
+        arr = [];arr2= [];
+        for(ii=0;ii<Math.max(col2,col1);ii++){
+            if(matrix1[i]!==undefined && matrix2!==undefined && matrix2[i][ii] !==undefined && matrix1[i][ii]!==undefined){
+                arr.push(matrix1[i][ii] + matrix2[i][ii]);
+                arr2.push(matrix1[i][ii] - matrix2[i][ii]);
+            }else if(matrix2[i] !==undefined && matrix2[i][ii]!==undefined){
+                arr.push(matrix2[i][ii]);
+                arr2.push(-matrix2[i][ii]);
+            }else if(matrix1[i] !==undefined && matrix1[i][ii]!==undefined){
+                arr.push(matrix1[i][ii]);
+                arr2.push(matrix1[i][ii]);
+            }else 
+            {   arr.push(0);
+                arr2.push(0);
+            }}
+        additionMatrix.push(arr);
+        subtractionMatrix.push(arr2);}
+    document.write("Addition Of Matrices = ",(additionMatrix));
+    document.write("<br>");
+    document.write("Subtraction Of Matrices = ",(subtractionMatrix));
+}</script>
+</head>
+<body>
+<button onClick={array_size()}>ARRAY SIZE</button>
+</body>
+</html>
