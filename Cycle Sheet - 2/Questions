@@ -1,0 +1,112 @@
+*REFER README SECTION TO VIEW AND DOWNLOAD PDF*
+
+Cycle Sheet - 2 - Using JavaScript and JQuery
+
+
+1. A parking garage charges a $2.00 minimum fee to park for up to three hours. The
+garage charges an additional $0.50 per hour for each hour or part thereof in excess of
+three hours. The maximum charge for any given 24-hour period is $10.00. Assume that
+no car parks for longer than 24 hours at a time. Write a script that calculates and
+displays the parking charges for each customer who parked a car in this garage
+yesterday. You should input from the user the hours parked for each customer. The
+program should display the charge for the current customer and should calculate and
+display the running total of yesterday's receipts. The program should use the function
+calculate-Charges to determine the charge for each customer. Use a prompt dialog to
+obtain the input from the user.
+
+
+2. Create a web page containing three divisions.
+a) The first division displays a digital clock on the rightmost end.
+b) The width of the first division is 100%.The second division and third division
+lay side by side.
+c) The second division has an image slider and third division has a color picker and
+two list box having font-family and size and a button. When a button is clicked
+the background color, font and font size should change for a whole page. Use
+JavaScript to implement the above.
+
+
+3. Design a student registration form which takes student name, register number, DOB,
+program, email id, temporary address, permanent address, phone number. Validate the
+following using JavaScript:
+a) Mobile number should be exactly 10 digits.
+b) Register number should have alphabets and numbers only.
+c) Name should not exceed 30 characters and can be only alphabets.
+d) Email validation.
+e) Provide a checkbox saying “Permanent address is same as temporary address”.
+If checked, the value of permanent address should be added automatically from
+temp address. And should be in disabled mode.
+
+
+4. Write the JavaScript code to add behavior to the following page for manipulating
+strings.
+a) The page UI allows the user to type a phrase into a text box. The user can click
+the "Go!" button to display the words in that phrase in reverse order. Each word
+in the phrase should be inserted as a span with a class of word, inside a div with
+the id of words. Every other word (the first, third, fifth, etc.) should also be
+underlined
+b) The user can optionally specify a "filter" text by typing into a text box with the
+id of filter. If a non-blank filter is specified, you should exclude any words from
+the phrase that contain that filter text, case-insensitively. For example, if the
+filter text is "abc", exclude any words containing abc, ABC, aBc, etc.
+c) If any words are excluded, under the list of words you should modify the div
+with id of count to display text of the form, "5 word(s) filtered out". The code
+should work for multiple clicks of the button. On each click it should clear any
+previous information you injected. You may assume that words in the phrase are
+separated by single spaces.
+d) These screenshots show the initial state, and after phrases have been typed and
+"Go!" is clicked.
+
+
+5. Develop an online Railway Reservation application.
+a) It has top frame with the name “Online Railway Reservation System” in the
+middle, there is a logo/image in the left corner using suitable CSS styles and the
+left frame with the links for Ticket booking and availability checking; for each
+link the target should be the right frame.
+b) Create a Ticket Booking form which should have From and To in a text box,
+Train Names in a drop down box, Coach Number in a list box, Date in a date
+field, Timing in a text box, Passengers Male and female in a dropdown menu
+showing the count number and Submit and Reset button.
+c) Assume availability of tickets already declared in the script. Create a DOM
+event to display the ticket confirmation details on any HTML element when
+ticket is available otherwise display “tickets not available” by invoking any
+other DOM event.
+
+
+6. i) Design a table in the format given below using HTML and JQuery selectors.
+ii) Apply different background for odd and even rows of the table.
+iii) Apply different CSS for table header using JQuery selectors.
+7. Write the JQuery code, so that when the Delete button is clicked, any button whose text
+value is divisible by the number written in the text field is removed from the page. You
+may assume that a valid number has been typed in the text field. The HTML code is the
+following:
+These screenshots show the initial page and its new appearance after typing 2 into the
+text field and pressing Delete:
+
+
+8. Write the JQuery code to add behavior to the following page for keeping track of a todo-
+list.
+a) The page UI allows the user to type an item into a text box. The user can click
+the "add" button to add the item to the bottom of the list. Each word in the
+phrase should be inserted as a li, inside an ul with the id of list.
+b) If the user wishes to remove an item he or she can type the text of the item he or
+she wishes to remove in the text box and click the “remove” button. This should
+be case insensitive. For example, if the list only contains “foo” and the user tries
+to remove “FoO”, it should be removed. If the user tries to remove an item that
+is in the list multiple times only the first occurrence should be removed.
+c) The items should have background colors that alternate between white and
+yellow (first white, then yellow, then white, yellow, etc.). This should still be the
+case no matter how many items are removed or added and no matter what order
+these operations are done in.
+d) The code should work for multiple clicks of the buttons. On each click it should
+clear any previous information you typed in the input boxes.
+These screenshots show the state after items have been added and the state after items
+have been removed.
+
+
+9. a) Validate the Event Registration Form given below using Jquery for the following
+conditions.
+ All fields are mandatory
+ Zip code should be exactly five digits
+ Email validation
+b) Create an array for a list of cities. Provide autocomplete option for city field using
+that array as a source.
