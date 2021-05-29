@@ -10,10 +10,7 @@ Questions PDF's :-
 
 [Solutions](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/tree/main/Cycle%20Sheet%20-%201)
 
-QUESTIONS :-
-
 1) Introduction to HTML
-
 a. Create a webpage that prints your name to the screen.
 b. Create a webpage that prints the numbers 1 - 10 to the screen.
 c. Create a webpage and set its title to "This is a webpage".
@@ -29,7 +26,6 @@ following
 
 
 2) HTMLTEXT EXERCISES
-
 a. Print your name in green
 b. Print the numbers 1 - 10, each number being a differentcolor.
 c. Prints your name in a Tahoma font.
@@ -52,7 +48,6 @@ p. Display a paragraph contents in a single line.
 
 
 3) HTML TEXT FORMATTING, LISTS EXERCISES.
-
 a. Print the squares of the numbers 1 - 20. Each number should be on a separate line,
 next to it the number 2 superscripted, an equal sign and theresult.
 b. Prints 10 names with a line break between each name. The list should be
@@ -73,7 +68,6 @@ lines. Specify the data that the abbreviations and acronymsrepresent
 
 
 4) HTML IMAGE EXERCISES
-
 a. Display five different images. Skip two lines between each image. Each image
 should have a title.
 b. Display an image that has a border of size 2, a width of 200, and a height of 200.
@@ -249,4 +243,67 @@ conditions.
  Email validation
 b) Create an array for a list of cities. Provide autocomplete option for city field using
 that array as a source.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[CAT-2.pdf](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/files/6564500/CAT-2.pdf)
+  
+[Solutions](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/tree/main/CAT-2)
+  
+With help of html and Javascript do the following,
+The details of all employees (ID no, name, mobile number) of a
+company XYZ is stored and maintained by the company’s IT
+department. Design a form to input the details of all employees.
+On company chairman’s birthday, the chairman wants to
+surprise few of his employees whose ID number is divisible by
+3 and not divisible by 4, by giving Rs.5000. He instructs the IT
+department to display the mobile number, name along with the
+PAN number of employees who are eligible for gift. Name of a
+person is in the format - initial (One letter), dot and any number
+of alphabets, spaces. Check the validity of the name entered and
+the mobile number and also the PAN (First 5 character must be
+alphabet, next 4 characters must be a numeric value, last one
+character must be an alphabet). A valid mobile number must
+consist of 10 digits and the first digit must not be zero.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  
+[Cycle Sheet - 3.pdf](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/files/6564507/Cycle.Sheet.-.3.pdf)
+
+[Solutions](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/tree/main/Cycle%20Sheet%20-%203)
+  
+1. How a web page can communicate with a web server while a user
+types character in input field with help of AJAX and PHP
+![image](https://user-images.githubusercontent.com/53513648/120067453-45e38500-c099-11eb-93f4-4e4302fdf89b.png)
+  
+2. Consider a client requests the server to view his profile, which is
+available in “19BDS0---info.html”. Implement it using the Node.js file
+system module.
+  
+3. Write a code, to send an email to multiple receiver using Node JS.
+  
+4. Create a MongoDB “Student” database and do the following operations:
+a) Insert a new student with a name: Dora
+b) Insert a new student with a name: Sinchan and id=2 (integer)
+c) Insert a new student with a name: Angush, the midterm score of
+80, and a final score of 100. Scores should be embedded in a subdocument
+like this:scores:{midterm:0,final:0}.
+d) Finding a document by a single attribute as name as “your name”.
+e) Display the list of students who scored between greater than 50 in
+the midterm.
+f) Search for students that have scored between [50,80] in midterm
+AND [80,100] in the final exam.
+g) Update the student Sinchan that you created back in exercise 2 to
+have a midterm score of 50 and a final score of 100 respectively.
+h) Sort according to the final score in descending order and display
+name and score without objectID.
+i) Delete user Angush that you created back in exercise 3
+j) Delete all users with a midterm score of less than 80.
+  
+5. Design an application using node.js and MongoDB to perform the
+following operations in a student collection with a name, age, DOB, and
+year of admission.
+a) Insert multiple records into the collection.
+b) Sort all documents in the student collection
+c) Update the document of a student with name=’Kevin’ to age=25
+d) Limit the result to 4 documents
+e) Query the document based on age>25
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
