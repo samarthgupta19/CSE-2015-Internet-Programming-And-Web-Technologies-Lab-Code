@@ -75,19 +75,23 @@ c. Display the image towards the right corner of thewebpage
 
 
 5) HTML TABLES
+
 ![image](https://user-images.githubusercontent.com/53513648/120067605-344ead00-c09a-11eb-8e07-8feb6b5e83d6.png)
 
 6) HTML Forms
 Design the following Form.
+
 ![image](https://user-images.githubusercontent.com/53513648/120067616-3b75bb00-c09a-11eb-86fb-b5ee54242389.png)
 
 7) HTML Frames.
 Design the following using frames.
+
 ![image](https://user-images.githubusercontent.com/53513648/120067625-416b9c00-c09a-11eb-825e-659d31988473.png)
 
 8) Create an external style sheet named as “external.css” and provide some styles for h2, p
 and body tags. Create an html file named as “welcome.html” and link the external style
 sheet. Include internal style sheet for body tags. Include a <p> tags with inline style sheet.
+
 ![image](https://user-images.githubusercontent.com/53513648/120067632-47fa1380-c09a-11eb-9471-24a2df457a9e.png)
 
 9) Write the CSS code necessary to recreate the following appearance on-screen, exactly as
@@ -102,13 +106,16 @@ background. There is 5px blank space around the green background.
 • The background color of the page is gray but the background color of the area containing
 everything is white. The white area is 80% wide and centered. There is 20px of space
 between the edge of the white background and everything inside it.
+
 ![image](https://user-images.githubusercontent.com/53513648/120067646-51837b80-c09a-11eb-9b64-7abce5f1db5b.png)
 
 10) Write the HTML and CSS box model to recreate the following appearance. No manual line
 breaks have been inserted.
+
 ![image](https://user-images.githubusercontent.com/53513648/120067651-57795c80-c09a-11eb-894a-4550f5b48a11.png)
 
 11) Design the following web page using HTML5 and CSS.
+
 ![image](https://user-images.githubusercontent.com/53513648/120067655-5e07d400-c09a-11eb-8a73-a8e4bfa5e640.png)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
