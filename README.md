@@ -264,6 +264,7 @@ the mobile number and also the PAN (First 5 character must be
 alphabet, next 4 characters must be a numeric value, last one
 character must be an alphabet). A valid mobile number must
 consist of 10 digits and the first digit must not be zero.
+  
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   
 [Cycle Sheet - 3.pdf](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/files/6564507/Cycle.Sheet.-.3.pdf)
@@ -272,6 +273,7 @@ consist of 10 digits and the first digit must not be zero.
   
 1. How a web page can communicate with a web server while a user
 types character in input field with help of AJAX and PHP
+  
 ![image](https://user-images.githubusercontent.com/53513648/120067453-45e38500-c099-11eb-93f4-4e4302fdf89b.png)
   
 2. Consider a client requests the server to view his profile, which is
