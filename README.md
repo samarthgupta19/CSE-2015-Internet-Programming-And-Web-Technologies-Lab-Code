@@ -145,6 +145,8 @@ operation().The get_inputs() function is invoked on click of a submit button.
 
 3. With the help of the bootstrap to design the following form, and validate the credit card
 number with validation state and symbol.
+ 
+![image](https://user-images.githubusercontent.com/53513648/120067971-f3579800-c09b-11eb-974e-27824a39c864.png)
 
 4. Design the following form using HTML, CSS and JavaScript and also validate the email address and display the status of the validation. 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
