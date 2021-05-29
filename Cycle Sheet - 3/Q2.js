@@ -1,6 +1,5 @@
 // 19BDS0042 SAMARTH GUPTA
 
-
 var http = require('http');  var fs = require('fs');
 http.createServer(function (req, res)
 {
