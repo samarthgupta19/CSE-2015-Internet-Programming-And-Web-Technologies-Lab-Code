@@ -4,14 +4,19 @@
 
 Internet Programming And Web Technologies (IPWT) - Lab Codes - CSE : 2015
 
+[Cycle Sheet - 1.pdf](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/files/6254486/Cycle.Sheet.-.1.pdf)
 [Cycle Sheet-1 Codes](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/tree/main/Cycle%20Sheet%20-%201)
 
+[CAT-1.pdf](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Code/files/6258286/CAT-1.pdf)
 [CAT-1 Codes](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/tree/main/CAT-1)
 
+[Cycle Sheet -2.pdf](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/files/6254487/Cycle.Sheet.-2.pdf)
 [Cycle Sheet-2 Codes](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/tree/main/Cycle%20Sheet%20-%202)
 
+[CAT-2.pdf](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/files/6564500/CAT-2.pdf)
 [CAT-2 Codes](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/tree/main/CAT-2)
 
+[Cycle Sheet - 3.pdf](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/files/6564507/Cycle.Sheet.-.3.pdf)
 [Cycle Sheet-3 Codes](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/tree/main/Cycle%20Sheet%20-%203)
 
 # Questions With PDF :-
