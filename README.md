@@ -75,20 +75,20 @@ c. Display the image towards the right corner of thewebpage
 
 
 5) HTML TABLES
-
+![image](https://user-images.githubusercontent.com/53513648/120067605-344ead00-c09a-11eb-8e07-8feb6b5e83d6.png)
 
 6) HTML Forms
 Design the following Form.
-
+![image](https://user-images.githubusercontent.com/53513648/120067616-3b75bb00-c09a-11eb-86fb-b5ee54242389.png)
 
 7) HTML Frames.
 Design the following using frames.
-
+![image](https://user-images.githubusercontent.com/53513648/120067625-416b9c00-c09a-11eb-825e-659d31988473.png)
 
 8) Create an external style sheet named as “external.css” and provide some styles for h2, p
 and body tags. Create an html file named as “welcome.html” and link the external style
 sheet. Include internal style sheet for body tags. Include a <p> tags with inline style sheet.
-
+![image](https://user-images.githubusercontent.com/53513648/120067632-47fa1380-c09a-11eb-9471-24a2df457a9e.png)
 
 9) Write the CSS code necessary to recreate the following appearance on-screen, exactly as
 shown.
@@ -102,13 +102,15 @@ background. There is 5px blank space around the green background.
 • The background color of the page is gray but the background color of the area containing
 everything is white. The white area is 80% wide and centered. There is 20px of space
 between the edge of the white background and everything inside it.
-
+![image](https://user-images.githubusercontent.com/53513648/120067646-51837b80-c09a-11eb-9b64-7abce5f1db5b.png)
 
 10) Write the HTML and CSS box model to recreate the following appearance. No manual line
 breaks have been inserted.
-
+![image](https://user-images.githubusercontent.com/53513648/120067651-57795c80-c09a-11eb-894a-4550f5b48a11.png)
 
 11) Design the following web page using HTML5 and CSS.
+![image](https://user-images.githubusercontent.com/53513648/120067655-5e07d400-c09a-11eb-8a73-a8e4bfa5e640.png)
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 [CAT-1.pdf](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Code/files/6258286/CAT-1.pdf)
@@ -123,6 +125,8 @@ ii) Email validation and empty field
 iii) Employee id should be number and 3 digits only
 iv) Employee Name should be start with Mr/Mrs/Miss
 v) Leavetype includeCL,EL,ML,Maternity leave and vacation
+  
+![image](https://user-images.githubusercontent.com/53513648/120067534-d1f5ac80-c099-11eb-992a-b63f574d37f4.png)
 
 2. Create a html page named as “matrix.html” that has a script tag in the head which includes
 3 functions,
@@ -191,6 +195,8 @@ previous information you injected. You may assume that words in the phrase are
 separated by single spaces.
 d) These screenshots show the initial state, and after phrases have been typed and
 "Go!" is clicked.
+ 
+![image](https://user-images.githubusercontent.com/53513648/120067554-f2256b80-c099-11eb-82c2-f8ba842304fe.png)
 
 5. Develop an online Railway Reservation application.
 a) It has top frame with the name “Online Railway Reservation System” in the
@@ -210,12 +216,16 @@ other DOM event.
 ii) Apply different background for odd and even rows of the table.
 iii) Apply different CSS for table header using JQuery selectors.
 
+![image](https://user-images.githubusercontent.com/53513648/120067563-01a4b480-c09a-11eb-9d1a-5c7802fc142b.png)
+
 7. Write the JQuery code, so that when the Delete button is clicked, any button whose text
 value is divisible by the number written in the text field is removed from the page. You
 may assume that a valid number has been typed in the text field. The HTML code is the
 following:
 These screenshots show the initial page and its new appearance after typing 2 into the
 text field and pressing Delete:
+ 
+![image](https://user-images.githubusercontent.com/53513648/120067568-0c5f4980-c09a-11eb-91bb-73d3a71df6b2.png)
 
 8. Write the JQuery code to add behavior to the following page for keeping track of a todo-
 list.
@@ -235,6 +245,8 @@ d) The code should work for multiple clicks of the buttons. On each click it sho
 clear any previous information you typed in the input boxes.
 These screenshots show the state after items have been added and the state after items
 have been removed.
+  
+![image](https://user-images.githubusercontent.com/53513648/120067577-1c772900-c09a-11eb-8f63-3a6c2947e128.png)
 
 9. a) Validate the Event Registration Form given below using Jquery for the following
 conditions.
@@ -243,6 +255,9 @@ conditions.
  Email validation
 b) Create an array for a list of cities. Provide autocomplete option for city field using
 that array as a source.
+ 
+![image](https://user-images.githubusercontent.com/53513648/120067588-24cf6400-c09a-11eb-91e5-3b5d5e9c0016.png)
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 [CAT-2.pdf](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/files/6564500/CAT-2.pdf)
