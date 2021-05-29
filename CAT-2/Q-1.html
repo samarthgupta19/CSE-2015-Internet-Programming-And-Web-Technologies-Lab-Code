@@ -1,0 +1,44 @@
+<!--19BDS0042 SAMARTH GUPTA-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Document</title>
+</head>
+<body>
+Name<input type="text" id="name" />
+Mobile Number <input type="text" id="number" />
+Id <input type="number" id="id" />
+Pan <input type="text" id="pan" />
+<button onClick="addEmployee()">Add Employee</button>
+<script type="text/javascript">
+employeeData = [];
+function addEmployee() {
+name = document.getElementById("name").value;
+number = document.getElementById("number").value;
+id = document.getElementById("id").value;
+pan = document.getElementById("pan").value;
+if (!name.match(/[A-Z]{1}\.[a-zA-Z\s]*/g)) {
+alert("Invalid Name format");
+return;
+} else if (!number.match(/[1-9]{1}[0-9]{9}/g)) {
+alert("Invalid Number format");
+return;
+} else if (!pan.match(/[A-Z]{5}[0-9]{4}[A-Z]{1}/g)) {
+alert("Invalid Pan Number");
+return;
+} else if (id <= 0) {alert("Invalid ID number");
+return;}
+alert(`Mobile Number ${number} \nName: ${name} \nPan: ${pan}   you are ${isEligible(id) ? "" : "not"} eligible for gift`)
+}
+function isEligible(id) {
+if (id%3 === 0  && id%4 !== 0)return true;
+return false;
+}
+</script>
+</body>
+</html>
