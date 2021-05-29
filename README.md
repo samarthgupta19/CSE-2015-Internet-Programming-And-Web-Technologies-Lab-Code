@@ -4,8 +4,7 @@
 
 Internet Programming And Web Technologies (IPWT) - Lab Codes - CSE : 2015
 
-[Cycle Sheet - 1.pdf](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/files/6254486/Cycle.Sheet.-.1.pdf)
-
+[Cycle Sheet - 1.pdf](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/files/6254486/Cycle.Sheet.-.1.pdf) ->
 [Cycle Sheet-1 Codes](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/tree/main/Cycle%20Sheet%20-%201)
 
 
