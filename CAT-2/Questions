@@ -1,0 +1,12 @@
+(REFER README SECTION TO VIEW AND DOWNLOAD QUESTIONS PDF).
+
+Course : CSE2015-Internet Programming and Web Technologies
+SET-A
+
+QUESTION :
+With help of html and Javascript do the following, The details of all employees (ID no, name, mobile number) of a company XYZ is stored and maintained by the company’s IT 
+department. Design a form to input the details of all employees. On company chairman’s birthday, the chairman wants to surprise few of his employees whose ID number is divisible 
+by 3 and not divisible by 4, by giving Rs.5000. He instructs the IT department to display the mobile number, name along with the PAN number of employees who are eligible for gift. 
+Name of a person is in the format - initial (One letter), dot and any number of alphabets, spaces. Check the validity of the name entered and the mobile number and also the 
+PAN (First 5 character must be alphabet, next 4 characters must be a numeric value, last one character must be an alphabet). A valid mobile number must consist of 10 digits
+and the first digit must not be zero.
