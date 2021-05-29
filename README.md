@@ -4,11 +4,15 @@
 
 Internet Programming And Web Technologies (IPWT) - Lab Codes - CSE : 2015
 
-Questions PDF's :-
+[Cycle Sheet-1 Codes](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/tree/main/Cycle%20Sheet%20-%201)
+[CAT-1 Codes](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/tree/main/CAT-1)
+[Cycle Sheet-2 Codes](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/tree/main/Cycle%20Sheet%20-%202)
+[CAT-2 Codes](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/tree/main/CAT-2)
+[Cycle Sheet-3 Codes](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/tree/main/Cycle%20Sheet%20-%203)
+
+# Questions With PDF :-
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 [Cycle Sheet - 1.pdf](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/files/6254486/Cycle.Sheet.-.1.pdf)
-
-[Solutions](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/tree/main/Cycle%20Sheet%20-%201)
 
 1) Introduction to HTML
 a. Create a webpage that prints your name to the screen.
@@ -122,8 +126,6 @@ breaks have been inserted.
 
 [CAT-1.pdf](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Code/files/6258286/CAT-1.pdf)
 
-[Solutions](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/tree/main/CAT-1)
-
 1. Write a java script and Html code to design an employee leave form using following data
 information, such as name, id, email, Designation, From date , to date , no of days with
 reason and submit button. To validate the form with help of the following conditions,
@@ -152,8 +154,6 @@ number with validation state and symbol.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 [Cycle Sheet -2.pdf](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/files/6254487/Cycle.Sheet.-2.pdf)
-
-[Solutions](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/tree/main/Cycle%20Sheet%20-%202)
 
 1. A parking garage charges a $2.00 minimum fee to park for up to three hours. The
 garage charges an additional $0.50 per hour for each hour or part thereof in excess of
@@ -270,9 +270,7 @@ that array as a source.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 [CAT-2.pdf](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/files/6564500/CAT-2.pdf)
-  
-[Solutions](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/tree/main/CAT-2)
-  
+    
 With help of html and Javascript do the following,
 The details of all employees (ID no, name, mobile number) of a
 company XYZ is stored and maintained by the company’s IT
@@ -292,8 +290,6 @@ consist of 10 digits and the first digit must not be zero.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   
 [Cycle Sheet - 3.pdf](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/files/6564507/Cycle.Sheet.-.3.pdf)
-
-[Solutions](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/tree/main/Cycle%20Sheet%20-%203)
   
 1. How a web page can communicate with a web server while a user
 types character in input field with help of AJAX and PHP
