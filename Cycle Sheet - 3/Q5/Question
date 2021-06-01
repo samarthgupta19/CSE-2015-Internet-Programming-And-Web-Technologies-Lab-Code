@@ -1,0 +1,9 @@
+Design an application using node.js and MongoDB to perform the
+following operations in a student collection with a name, age, DOB, and
+year of admission.
+
+a) Insert multiple records into the collection.
+b) Sort all documents in the student collection
+c) Update the document of a student with name=’Kevin’ to age=25
+d) Limit the result to 4 documents
+e) Query the document based on age>25
