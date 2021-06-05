@@ -1,0 +1,44 @@
+<!--19BDS0042 SAMARTH GUPTA-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>19BDS0042</title>
+    <style>
+        body{
+            margin-left: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h2>19BDS0042 SAMARTH GUPTA</h2>
+    <div style="background-color: lightcoral; position:absolute;">Hello VITian</div>
+    <br>
+    <br>
+    <button>ANIMATE</button>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+      console.log("called")
+    $("div").animate({left: '250px'},function() {
+        this.style.backgroundColor = "yellow";
+    });
+    $("div").animate({left: "10px",backgroundColor: "red"},function() {
+        this.style.backgroundColor = "red";
+    });
+    $("div").animate({top: "200px",backgroundColor: "blue"},function() {
+        this.style.backgroundColor = "blue";
+    });
+    $("div").animate({top: "10px",backgroundColor: "green"},function() {
+        this.style.backgroundColor = "green";
+    });
+    $("div").animate({opacity: 0});
+  });
+});
+</script>
+</html>
