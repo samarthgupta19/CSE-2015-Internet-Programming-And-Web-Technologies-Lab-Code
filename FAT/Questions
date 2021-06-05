@@ -1,0 +1,25 @@
+
+1. Develop an address collection application using JavaScript that
+allows the user to register and login. Use form to input the details for
+the user such as name, age, Email, Date of Birth etc. After successful
+registration and login, welcome message to be printed along with a
+lucky draw number. Lucky draw prize is to be given only when the
+number is divisible by 6 and 8. After lucky draw process is over, a
+link to be developed for collecting address. When the link is clicked,
+it allows the user to fill the address. Also perform validation for every
+field in registration form.
+o Name- should start with alphabet, followed by digits and
+alphabets
+o Age- must be between 18-85
+o Email id- should start with alphabet, followed by symbols ,
+next digits @ yahoo.com
+o Phone – exactly 10 digits and should not start with 0 to 6 .
+
+----------------------------------------------------------------------------
+
+2. Develop an animated application using Jquery, the application should
+be developed in such a way that the user pressed the button, the
+object along with text(Hello VITian) should be move from left to
+right, right to left , top to bottom and bottom to top with particular set
+of intervals with set of colors, after completing the task it should be
+invisible.
