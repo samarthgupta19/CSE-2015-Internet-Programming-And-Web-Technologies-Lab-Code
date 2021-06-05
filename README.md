@@ -23,6 +23,9 @@ Internet Programming And Web Technologies (IPWT) - Lab Codes - CSE : 2015
 [Cycle Sheet - 3.pdf](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/files/6564507/Cycle.Sheet.-.3.pdf) -->
 [Cycle Sheet-3 Codes](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/tree/main/Cycle%20Sheet%20-%203)
 
+[FAT Exam.pdf](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/files/6602288/FAT.Exam.pdf) -->
+[Fat Exam Codes](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/tree/main/FAT)
+
 # Questions
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 [Cycle Sheet - 1.pdf](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/files/6254486/Cycle.Sheet.-.1.pdf)
@@ -341,4 +344,31 @@ b) Sort all documents in the student collection
 c) Update the document of a student with name=’Kevin’ to age=25
 d) Limit the result to 4 documents
 e) Query the document based on age>25
+  
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[FAT Exam.pdf](https://github.com/samarthgupta19/CSE-2015-Internet-Programming-And-Web-Technologies-Lab-Codes/files/6602288/FAT.Exam.pdf)
+
+1. Develop an address collection application using JavaScript that
+allows the user to register and login. Use form to input the details for
+the user such as name, age, Email, Date of Birth etc. After successful
+registration and login, welcome message to be printed along with a
+lucky draw number. Lucky draw prize is to be given only when the
+number is divisible by 6 and 8. After lucky draw process is over, a
+link to be developed for collecting address. When the link is clicked,
+it allows the user to fill the address. Also perform validation for every
+field in registration form.
+o Name- should start with alphabet, followed by digits and
+alphabets
+o Age- must be between 18-85
+o Email id- should start with alphabet, followed by symbols ,
+next digits @ yahoo.com
+o Phone – exactly 10 digits and should not start with 0 to 6 .
+
+2. Develop an animated application using Jquery, the application should
+be developed in such a way that the user pressed the button, the
+object along with text(Hello VITian) should be move from left to
+right, right to left , top to bottom and bottom to top with particular set
+of intervals with set of colors, after completing the task it should be
+invisible.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
